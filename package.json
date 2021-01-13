@@ -1,0 +1,38 @@
+{
+  "name": "gm-crypto.js",
+  "version": "0.1.0",
+  "description": "gm crypto",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js && npm run lint",
+    "lint": "eslint lib/*.js lib/**/*.js lib/**/**/*.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sandmanhome/gm-crypto.js"
+  },
+  "keywords": [
+    "hash",
+    "hmac",
+    "sm3"
+  ],
+  "author": "sandman <sandmanhome@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandmanhome/gm-crypto.js/issues"
+  },
+  "homepage": "https://github.com/sandmanhome/gm-crypto.js",
+  "dependencies": {
+    "inherits": "^2.0.3",
+    "minimalistic-assert": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
