@@ -4,7 +4,7 @@
 var assert = require('assert');
 var gmCrypto = require('../');
 
-describe('Hash', function () {
+describe('SM3', function () {
   function test(fn, cases) {
     for (var i = 0; i < cases.length; i++) {
       var msg = cases[i][0];
